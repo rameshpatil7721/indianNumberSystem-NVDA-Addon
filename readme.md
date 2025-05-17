@@ -40,15 +40,15 @@ This NVDA add-on enhances the reading of numeric values in a way that matches th
 
 - Written in Python
 - Uses NVDA's `speechDictHandler` and `config.conf` for custom processing
-- Built with open-source NVDA add-on template
+- Built using the official NVDA add-on template
 
 ---
 
-## 🧑‍💻 Author
+## 👨‍💻 Author
 
 **Ramesh Patil**  
-Indian NVDA developer and accessibility advocate  
-👨‍💻 [GitHub Profile](https://github.com/yourusername)
+Developer of Indian Number System NVDA Add-on  
+[GitHub: rameshpatil7721](https://github.com/rameshpatil7721)
 
 ---
 
@@ -63,4 +63,3 @@ See `COPYING.txt` for full terms.
 
 Pull requests, issues, and ideas are welcome.  
 Feel free to fork and improve!
-
