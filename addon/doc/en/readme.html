@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Indian Number System NVDA Add-on</title>
+</head>
+<body>
+    <h2>🎉 <strong>First Release: Indian Number System NVDA Add-on v1.0</strong> 🇮🇳</h2>
+
+    <p>This NVDA add-on improves how numbers are spoken by the screen reader, especially for users in India who prefer the <strong>crore/lakh</strong> format instead of the western million/billion format.</p>
+
+    <hr>
+
+    <h2>🔢 Features</h2>
+
+    <h3>✅ <strong>Indian Number Mode</strong></h3>
+    <ul>
+        <li>Automatically formats numbers with 6 or more digits into Indian style</li>
+        <li>➤ Example: <code>12345678</code> → "1 Crore 23 Lakh 45678"</li>
+    </ul>
+
+    <h3>✅ <strong>Western Mode (NVDA Default)</strong></h3>
+    <ul>
+        <li>No formatting — NVDA reads numbers as it normally does</li>
+        <li>➤ Example: <code>12345678</code> → "twelve million three hundred forty-five thousand six hundred seventy-eight"</li>
+    </ul>
+
+    <h3>✅ <strong>Digit-by-Digit Mode</strong></h3>
+    <ul>
+        <li>Reads all numbers (with 2 or more digits) one digit at a time</li>
+        <li>➤ Example: <code>987654</code> → "9 8 7 6 5 4" (good for phone numbers, OTPs)</li>
+    </ul>
+
+    <h3>✅ <strong>Keyboard Shortcut</strong></h3>
+    <ul>
+        <li>Press <code>NVDA + Shift + F</code> to <strong>toggle between modes</strong></li>
+        <li>Cycles through: Indian → Western (default) → Digit-by-digit → Indian...</li>
+    </ul>
+
+    <h3>✅ <strong>Remembers Your Mode</strong></h3>
+    <ul>
+        <li>Your selected mode is saved and automatically restored when NVDA restarts</li>
+    </ul>
+
+    <hr>
+
+    <h2>🛠 Technical Info</h2>
+    <ul>
+        <li>Written in Python, using NVDA’s global plugin API</li>
+        <li>Uses regex to detect number patterns</li>
+        <li>Uses NVDA’s <code>speechDictHandler.processText</code> to format what NVDA reads</li>
+        <li>Fully supports NVDA 2024 and above</li>
+        <li>Runs directly or can be installed via <code>.nvda-addon</code> package</li>
+    </ul>
+
+    <hr>
+
+    <h2>📦 Installation</h2>
+    <ol>
+        <li>Download the <code>.nvda-addon</code> file from the release section</li>
+        <li>Press <code>Enter</code> on it, and NVDA will prompt to install</li>
+        <li>Restart NVDA to activate the add-on</li>
+    </ol>
+
+    <hr>
+
+    <h2>🙋‍♂️ Author</h2>
+    <p><strong>Ramesh Patil</strong><br>
+    <a href="https://github.com/rameshpatil7721">GitHub Profile</a><br>
+    Email - rameshpatil.rp019@gmail.com</p>
+
+    <hr>
+
+    <h2>💬 Feedback</h2>
+    <p>Bug reports, suggestions, and improvements are welcome!<br>
+    Open an issue or create a pull request on GitHub.</p>
+</body>
+</html>
