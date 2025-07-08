@@ -28,13 +28,13 @@ addon_info = {
         "• Press NVDA + Shift + F to toggle between modes\n"
         "• Cycles through: Indian → Western (default) → Digit-by-digit → Indian..."
     ),
-    "addon_version": "1.1",
+    "addon_version": "1.2",
     "addon_author": "Ramesh Patil <rameshpatil.rp019@gmail.com>",
     "addon_url": "https://github.com/rameshpatil7721/indianNumberSystem-NVDA-Addon/releases/tag/v1.1",
     "addon_sourceURL": None,
     "addon_docFileName": "readme.html",
-    "addon_minimumNVDAVersion": "2024.1",
-    "addon_lastTestedNVDAVersion": "2024.4.2",
+    "addon_minimumNVDAVersion": "2025.1",
+    "addon_lastTestedNVDAVersion": "2025.1.2",
     "addon_updateChannel": None,
     "addon_license": "GPL",
     "addon_licenseURL": "https://www.gnu.org/licenses/gpl-2.0.html",
